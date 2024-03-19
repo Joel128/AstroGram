@@ -1,0 +1,63 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Estética con Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto">
+        <header class="py-4 px-6 bg-white border-b border-gray-300">
+            <div class="flex justify-between items-center">
+                <button class="text-gray-600 hover:text-black focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <h1 class="text-2xl font-semibold text-gray-800">Instagram</h1>
+                <button class="text-gray-600 hover:text-black focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 20a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <main class="mt-6">
+            <div class="grid grid-cols-1 gap-4">
+                <!-- Ejemplo de post -->
+                <div class="bg-white border border-gray-300">
+                    <img src="https://via.placeholder.com/300" alt="Placeholder" class="w-full">
+                    <div class="p-4">
+                        <h2 class="text-lg font-semibold">Nombre de usuario</h2>
+                        <p class="text-sm text-gray-700">Descripción del post</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="py-4 px-6 bg-white border-t border-gray-300">
+            <nav class="flex justify-between items-center">
+                <a href="#" class="text-gray-600 hover:text-black">Inicio</a>
+                <a href="#" class="text-gray-600 hover:text-black">Explorar</a>
+                <a href="#" class="text-gray-600 hover:text-black">Subir</a>
+                <a href="#" class="text-gray-600 hover:text-black">Actividad</a>
+                <a href="#" class="text-gray-600 hover:text-black">Perfil</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
+
